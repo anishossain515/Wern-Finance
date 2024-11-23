@@ -4,13 +4,13 @@ import { Arrow } from './Utilities/Icons'
 function Hero() {
   return (
     <section >
-         <section className="flex flex-col-reverse lg:flex-row items-center justify-between mt-28 mx-auto px-5 sm:px-20 lg:px-24 2xl:px-40">
+      <section className="flex flex-col-reverse lg:flex-row items-center justify-between sm:mt-28 mt-16 mx-auto px-5 sm:px-20 lg:px-16 2xl:px-40">
       {/* Text Content Section */}
       <div className="pt-16 lg:pt-14">
-        <h1 className="font-inter font-semibold text-2xl sm:text-4xl xl:text-5xl 2xl:text-[56px] leading-tight  xl:leading-[64px] mb-4 lg:mb-6 2xl:mb-8 max-w-[640px]">
+        <h1 className="font-semibold text-2xl sm:text-4xl xl:text-5xl 2xl:text-[56px] leading-tight  xl:leading-[64px] mb-4 lg:mb-6 2xl:mb-8 max-w-[640px]">
          Spend your Cardano anywhere, anytime.
         </h1>
-        <p className="font-inter text-xs sm:text-sm  xl:text-[18px] text-[#ADB2B1] mb-6 lg:mb-10 max-w-[498px]">
+        <p className="text-xs sm:text-sm  xl:text-[18px] text-[#ADB2B1] mb-6 lg:mb-10 max-w-[498px]">
         Our user-friendly platform enables businesses and individuals to seamlessly convert and spend their crypto for everyday purchases.
         </p>
 

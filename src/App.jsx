@@ -1,11 +1,12 @@
 import './App.css'
-import {Button} from "@nextui-org/button";
 import NavbarArea from './Components/Navbar';
+import Hero from './Components/Hero';
 function App() {
 
   return (
     <>
      <NavbarArea/>
+     <Hero/>
     </>
   )
 }

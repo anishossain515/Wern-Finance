@@ -19,7 +19,10 @@ export default {
         foreground: "#ffffff",
       },
         
-      fontFamily: { mplus1: '"M PLUS 1", sans-serif' },
+      fontFamily: { 
+        mplus1: '"M PLUS 1", sans-serif',
+        Poppins:'"Poppins", sans-serif'
+    },
     },
   },
   darkMode: "class",

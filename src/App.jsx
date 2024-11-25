@@ -3,6 +3,7 @@ import NavbarArea from './Components/Navbar';
 import Hero from './Components/Hero';
 import Vision from './Components/Vision';
 import Offer from './Components/Offer/Offer';
+import Debit from './Components/Debit';
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
      <Hero/>
      <Vision/>
      <Offer/>
+     <Debit/>
     </>
   )
 }

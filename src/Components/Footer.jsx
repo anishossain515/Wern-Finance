@@ -20,7 +20,7 @@ function Footer() {
   }
 
   return ( 
-    <footer className="md:mt-[128px] sm:mt-[100px] mt-20 md:pb-[549px] pb-[400px] pb-96">
+    <footer className="md:mt-[128px] sm:mt-[100px] mt-20 md:pb-[549px] sm:pb-[400px] pb-96">
 
       <section className="bg-[#2928343D]/25 ">
 

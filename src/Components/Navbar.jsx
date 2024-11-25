@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar,NavbarBrand,NavbarContent,NavbarItem,Button, Link } from '@nextui-org/react'
 function NavbarArea() {
   return (
-    <Navbar shouldHideOnScroll isBlurred={false} className='w-full' maxWidth='xl'>
+    <Navbar shouldHideOnScroll isBlurred={false} className='w-full bg-transparent' maxWidth='xl'>
         <NavbarBrand>
             <div className='w-26'>
                 <img src="/logo.png" alt="logo" />

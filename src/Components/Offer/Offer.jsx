@@ -3,8 +3,8 @@ import OfferCard from './OfferCard'
 import { OfferCardData } from '../Utilities/Data'
 function Offer() {
   return (
-    <section className='sm:mt-[128px] mt-20 max-w-[1400px] mx-auto'>
-        <div className='flex flex-col items-center justify-center '>
+    <section>
+        <div className='flex flex-col items-center justify-center max-w-[1400px] mx-auto'>
             <h2 className='font-semibold sm:text-[40px] text-3xl text-center'>What do we offer?</h2>
            <div className='flex flex-wrap gap-8 justify-center pt-[64px] px-2'>
             {OfferCardData.map(({Img,head,des},index)=>(

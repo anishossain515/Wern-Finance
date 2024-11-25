@@ -4,7 +4,7 @@ import { Arrow } from "./Utilities/Icons";
 
 function Debit() {
   return (
-    <section className="md:mt-[128px] sm:mt-[100px] mt-20">
+    <section>
       <div className="max-w-[1400px] mx-auto flex md:flex-row flex-col-reverse gap-10 items-center justify-between px-5">
         <div className="lg:space-y-6 space-y-3">
           <h2 className="font-bold lg:text-[40px] text-3xl">Wern Debit Card</h2>

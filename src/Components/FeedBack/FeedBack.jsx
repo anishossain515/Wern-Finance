@@ -4,7 +4,7 @@ import { FeedBackData } from '../Utilities/Data'
 
 function FeedBack() {
   return (
-    <section className='md:mt-[128px] sm:mt-[100px] mt-20'>
+    <section>
 
         <div className='flex flex-wrap gap-8 max-w-[1300px] mx-auto px-4 justify-center'>
             {FeedBackData.map(({des,profile,name,job},index)=>(  

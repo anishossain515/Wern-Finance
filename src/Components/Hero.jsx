@@ -3,7 +3,7 @@ import { Button } from '@nextui-org/react'
 import { Arrow } from './Utilities/Icons'
 function Hero() {
   return (
-    <section >
+    <section>
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between sm:mt-28 mt-16 mx-auto px-5 sm:px-20 lg:px-16 2xl:px-40">
       {/* Text Content Section */}
       <div className="pt-16 lg:pt-14">

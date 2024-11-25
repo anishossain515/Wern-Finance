@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Vision from './Components/Vision';
 import Offer from './Components/Offer/Offer';
 import Debit from './Components/Debit';
+import FindCard from './Components/FindCard';
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
      <Vision/>
      <Offer/>
      <Debit/>
+     <FindCard/>
     </>
   )
 }

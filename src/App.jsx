@@ -6,6 +6,7 @@ import Offer from './Components/Offer/Offer';
 import Debit from './Components/Debit';
 import FindCard from './Components/FindCard';
 import FeedBack from './Components/FeedBack/FeedBack';
+import Faq from './Components/Faq';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
      <Debit/>
      <FindCard/>
      <FeedBack/>
+     <Faq/>
     </>
   )
 }
